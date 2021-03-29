@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic HTML Tutorial</title>
+    <title>Basic HTML5 Tutorial For Beginners</title>
   </head>
   <body>
     <!-- HTML Heading -->
@@ -19,9 +19,30 @@
     <p>This is a another Paragraph</p>
 
     <!-- This is Comment -->
-    <p>This is a Paragraph</p>
+    <!-- <p>This is a Paragraph</p> -->
+    <!-- Comments are not displayed in the browser -->
 
+ 
     <!-- HTML Image -->
-    <img src="hello2.jpg" width="100" height="200" alt="work image"
+    <img src="hello2.jpg" width="100" height="200" alt="work image" title="Click here">
+    
+    <!-- HTML List Unorderlist -->
+    <ul type="square">
+      <li>Cat</li>
+      <li>Dog</li>
+      <li>Animal</li>
+    </ul>
+
+    <!-- HTML list Orderlist -->
+    <ol type="a">
+      <li>Cat</li>
+      <li>Dog</li>
+      <li>Animal</li>
+    </ol>
+    
+    <!-- HTML Links -->
+    <a href="https://www.google.com" target="_blanks" title="Click Here">Visit Google</a>
+
+    
   </body>
 </html>
