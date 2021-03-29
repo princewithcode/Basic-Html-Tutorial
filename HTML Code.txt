@@ -41,8 +41,83 @@
     </ol>
     
     <!-- HTML Links -->
+    <h3>This is a link</h3>
     <a href="https://www.google.com" target="_blanks" title="Click Here">Visit Google</a>
 
-    
+  <!-- Html table -->
+
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr>
+        <th>Country</th>
+        <th>Degree</th>
+        <th>Age</th>
+      </tr>
+
+      <tr>
+        <td>America</td>
+        <td>MCA</td>
+        <td>26</td>
+      </tr>
+    </table>
+
+  <!-- HTML video -->
+    <video width="200" height="100" controls>
+      <source src="hello.mp4" type="video/mp4" />
+      Your browser does not support the video tag
+    </video>
+
+
+   <!-- HTML Audio -->
+    <audio controls>
+      <source src="Songs.mp3" type="audio/mp3" />
+      Your browser does not support the audio element
+    </audio>
+
+  
+    <form action="action.php">
+      <lable>First Name</lable><br>
+      <input type="text" placeholder="enter your name"><br><br>
+
+      <lable>Last Name</lable><br>
+      <input type="text"><br><br>
+
+      <lable>Email</lable><br>
+      <input type="email"><br><br>
+
+      <lable>Password</lable><br>
+      <input type="password"><br><br>
+
+      <lable>Date</lable><br>
+      <input type="date"><br><br>
+
+      <textarea placeholder="">This is a textarea</textarea>
+
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+
+     
+      <input id="car" type="checkbox" />
+      <label for="car">I Have A car</label>
+
+      <select>
+        <option>Select Your plan</option>
+        <option>medium</option>
+        <option>premium</option>
+      </select>
+
+      <input type="file" multiple />
+
+      <input type="submit" />
+    </form>
+
+
+    <!-- <br> means break line -->
+
+    <!-- <hr> means horizental line -->
+
   </body>
 </html>
